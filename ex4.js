@@ -1,16 +1,12 @@
-// Função em JS que calcule o salário liquido a partir do salário Bruto
-// Até 900(Isento); até 1500(-5%); até 2500(-10%); +2500(-20%)
+// Função em JS que simule media de um aluno
 
-function calculaSalarioLiquido(salarioBruto) {
-    if (salarioBruto <= 900) {
-        return SalarioBruto
-    } else if (salarioBruto <= 1500) {
-      return salarioBruto * 0.95
-    } else if (salarioBruto <= 2500) {
-        return salarioBruto * 0.9
-    } else { (salarioBruto >= 2500)
-        return salarioBruto * 0.8
-    }
+function calcularMediaFinal(n1, n2, n3, n4) 
+{
+    var resultado = (n1 + n2 + n3 + n4) / 4
+    console.log("A média final é: " + resultado)
+    return resultado
 }
 
-console.log("O salário líquido é:", calculaSalarioLiquido(4000))
+calcularMediaFinal(8, 9, 10, 7)
+
+

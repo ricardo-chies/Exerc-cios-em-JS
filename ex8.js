@@ -1,27 +1,13 @@
-// Função que imprima os 100 primeiros números ímpares na tela
+// função que imprima os 100 primeiros números naturais na tela
 
-function imprime100impares() {
-    var num = 1
-    var count = 1
+function imprime100numeros() {
+    var num = 0
 
-    while(count <= 100) {
+    while(num < 100) {
         console.log(num)
-        num = num + 2
-        count = count + 1
+        num = num + 1
     }
 }
 
-imprime100impares()
+imprime100numeros()
 
-function imprime100imparesMaiorMenor() {
-    var num = 199
-    var count = 100
-
-    while(count > 0) {
-        console.log(num)
-        num = num - 2
-        count = count - 1
-    }
-}
-
-imprime100imparesMaiorMenor()

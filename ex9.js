@@ -1,29 +1,27 @@
-// Crie uma função em JS que receba como parâmetro uma lista (array) de salários brutos e retorne uma outra lista (array) com os salários líquidos
-// Até 900(Isento); até 1500(-5%); até 2500(-10%); +2500(-20%)
+// Função que imprima os 100 primeiros números ímpares na tela
 
-var lista = [1300, 2200, 3500, 4300, 5800]
+function imprime100impares() {
+    var num = 1
+    var count = 1
 
-function calcularSalarioLiquido(salarioBruto) {
-    if (salarioBruto <= 900) {
-        return salarioBruto
-    } else if (salarioBruto <= 1500) {
-        return salarioBruto * 0.95
-    } else if (salarioBruto <= 2500) {
-        return salarioBruto * 0.9
-    } else {  (salarioBruto >= 2500)
-        return salarioBruto * 0.8
+    while(count <= 100) {
+        console.log(num)
+        num = num + 2
+        count = count + 1
     }
 }
 
-function calcularListaLiquida(lista) {
-    var contador = 0
-    var arrayNovo = []
+imprime100impares()
 
-    while (contador < lista.length) {
-        arrayNovo[contador] = calcularSalarioLiquido(lista[contador])
-        contador++
+function imprime100imparesMaiorMenor() {
+    var num = 199
+    var count = 100
+
+    while(count > 0) {
+        console.log(num)
+        num = num - 2
+        count = count - 1
     }
-    return arrayNovo
 }
 
-console.log(calcularListaLiquida(lista))
+imprime100imparesMaiorMenor()
