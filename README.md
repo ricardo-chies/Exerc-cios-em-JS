@@ -1,4 +1,4 @@
-# Exercicios-algoritmos-programacao
+# Exercicios-logica-JS
 
 # Descrição
 Lista de exercícios de lógica de programação feita em JavaScript realizada no 2º Semestre de 2021.
@@ -6,6 +6,7 @@ Lista de exercícios de lógica de programação feita em JavaScript realizada n
 # Tecnologias Utilizadas
 <ul>
   <li>JavaScript</li>
+  <li>Visual Studio Code</li>
   </ul>
   
 # Autor
